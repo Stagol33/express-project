@@ -7,32 +7,17 @@ Featured Projects
 Random Quote Generator
 A dynamic app that displays random programming quotes at timed intervals or when requested. Built using vanilla JavaScript with a focus on DOM manipulation and timing events.
 
-Live Demo
-GitHub Repository
-
 Data Pagination and Filtering
 An interactive student directory that implements pagination and search functionality. This project demonstrates working with larger datasets and creating dynamic UI components.
-
-Live Demo
-GitHub Repository
 
 Interactive Form
 A conference registration form with real-time validation and conditional behavior. Features include dynamic form controls, custom validation, and accessibility considerations.
 
-Live Demo
-GitHub Repository
-
 OOP Game
 A phrase-guessing game similar to Hangman, built using object-oriented JavaScript. Demonstrates OOP principles including encapsulation and inheritance in a game context.
 
-Live Demo
-GitHub Repository
-
 Public API Request
 An employee directory that fetches and displays random user data from an API. Implements modal windows, search functionality, and asynchronous operations.
-
-Live Demo
-GitHub Repository
 
 Technologies Used
 
@@ -48,22 +33,6 @@ Project gallery with filtering capabilities
 Dynamic routing for project details
 Custom error handling with dedicated error pages
 Optimized images and performance
-
-portfolio-project/
-├── public/                     # Static assets
-│   ├── css/                    # CSS stylesheets
-│   └── images/                 # Project and profile images
-├── views/                      # Pug templates
-│   ├── layout.pug              # Base template
-│   ├── index.pug               # Homepage/gallery
-│   ├── about.pug               # About me page
-│   ├── project.pug             # Individual project page
-│   ├── page-not-found.pug      # 404 error page
-│   └── error.pug               # General error page
-├── app.js                      # Main Express application
-├── data.json                   # Project data
-├── package.json                # Dependencies and scripts
-└── README.md                   # Project documentation
 
 Setup and Installation
 
