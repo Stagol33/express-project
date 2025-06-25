@@ -49,22 +49,22 @@ Dynamic routing for project details
 Custom error handling with dedicated error pages
 Optimized images and performance
 
-Project Structure
 portfolio-project/
-├── public/ # Static assets
-│ ├── css/ # CSS stylesheets
-│ └── images/ # Project and profile images
-├── views/ # Pug templates
-│ ├── layout.pug # Base template
-│ ├── index.pug # Homepage/gallery
-│ ├── about.pug # About me page
-│ ├── project.pug # Individual project page
-│ ├── page-not-found.pug # 404 error page
-│ └── error.pug # General error page
-├── app.js # Main Express application
-├── data.json # Project data
-├── package.json # Dependencies and scripts
-└── README.md # Project documentation
+├── public/                     # Static assets
+│   ├── css/                    # CSS stylesheets
+│   └── images/                 # Project and profile images
+├── views/                      # Pug templates
+│   ├── layout.pug              # Base template
+│   ├── index.pug               # Homepage/gallery
+│   ├── about.pug               # About me page
+│   ├── project.pug             # Individual project page
+│   ├── page-not-found.pug      # 404 error page
+│   └── error.pug               # General error page
+├── app.js                      # Main Express application
+├── data.json                   # Project data
+├── package.json                # Dependencies and scripts
+└── README.md                   # Project documentation
+
 Setup and Installation
 
 Clone the repository:
