@@ -1,0 +1,44 @@
+extends layout.pug
+
+block content
+	nav.nav.center
+		a(href="/")
+			span.arrow ←
+			|  Back to Gallery
+
+	article.portfolio-about
+		.inner-wrapper.flex-row-wrap.two-col
+			.about-intro-box.box
+				h1 Developer Profile
+				
+				.about-bio
+					img.profile-pic(src="/static/images/profile.png", alt="Profile Picture")
+				
+				.about-bio
+					p Hi! I'm a front-end developer specializing in JavaScript-based web applications.
+					p Through my portfolio projects, you can see my progression in JavaScript development - from creating simple interactive elements to implementing complex features using object-oriented programming concepts and API integration.
+					p Each project represents a step in my journey developing interactive, user-friendly web experiences.
+				
+		.skills-contact-box.box
+			h6 Skills & Technologies
+			
+			ul.skills-list
+				li JavaScript
+				li HTML5
+				li CSS3
+				li Object-Oriented Programming
+				li DOM Manipulation
+				li API Integration
+				li Form Validation
+				li Responsive Design
+			
+			h6 Contact Info
+			
+			ul.contact-info
+				li 
+					span.label Email: 
+						a(href="mailto:breckcooper@gmail.com") breckcooper@gmail.com
+				li 
+					span.label GitHub: 
+						a(href="https://github.com/Stagol33" target="_blank") @Stagol33
+			a.btn-link(href="https://github.com/Stagol33" target="_blank") View GitHub Profile

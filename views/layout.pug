@@ -1,0 +1,45 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		title JavaScript Portfolio | #{title || 'Web Developer Projects'}
+		link(rel='stylesheet', href='/static/css/normalize.css')
+		link(rel='stylesheet', href='/static/css/styles.css')
+		link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap")
+
+	body
+		.wrapper
+			header
+				.header-container
+					h1.logo JavaScript Developer Portfolio
+					nav
+						ul.main-nav
+							li
+								a(href="/") Projects
+							li
+								a(href="/about") About
+				
+			main
+				block content
+				
+			footer
+				p © #{new Date().getFullYear()} - Built with Express, Node.js & Pug
+				nav.nav
+					ul.social-links
+						li
+							a(href="https://github.com/Stagol33" target="_blank") 
+								span.icon GitHub
+						li
+							a(href="https://linkedin.com/in/yourprofile" target="_blank") 
+								span.icon LinkedIn
+			script.
+				// Add shadow to header on scroll
+				window.addEventListener('scroll', function() {
+					const header = document.querySelector('header');
+					if (window.scrollY > 10) {
+						header.classList.add('scrolled');
+					} else {
+						header.classList.remove('scrolled');
+					}
+				});

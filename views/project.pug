@@ -1,0 +1,43 @@
+extends layout.pug
+
+block content
+	nav.nav.center
+		a.back-link(href="/")
+			span.arrow ←
+			|  Back to Gallery
+
+	article.portfolio-project
+		//- 50/50 split layout for top section
+		.project-top-section
+			//- Left side: Project information
+			.project-info-column
+				h1.project-title= project.project_name
+				
+				p.project-description= project.description
+				
+				.project-tech-box
+					h6 Technologies
+					.technology-tags
+						each tech in project.technologies
+							span.tech-tag= tech
+				
+					.project-links
+						a.btn-link(href=project.live_link target="_blank") View Live Demo
+						a.btn-link(href=project.github_link target="_blank") GitHub Repository
+			
+			//- Right side: Main project image
+			.project-main-image-column
+				- const mainImage = project.image_urls[0];
+				a.image-link(href=project.live_link target="_blank")
+					img.project-img.main-img(src=`/static${mainImage}`, alt=`${project.project_name} Main Screenshot`)
+					.image-overlay
+						span.view-text View Project
+			
+			//- Additional images section (below the split)
+			- const additionalImages = project.image_urls.slice(1);
+			if additionalImages.length > 0
+			.additional-screenshots-section
+				h3 Additional Screenshots
+				.screenshot-gallery
+					each img, index in additionalImages
+						img.project-img(src=`/static${img}`, alt=`${project.project_name} Screenshot ${index + 1}`)

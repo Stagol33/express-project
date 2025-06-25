@@ -1,0 +1,64 @@
+{
+	"projects": [
+		{
+			"id": 0,
+			"project_name": "Random Quote Generator",
+			"description": "This project generates a random quote when a user clicks a button or after 15 seconds passes.",
+			"technologies": ["JavaScript", "HTML", "CSS"],
+			"live_link": "https://stagol33.github.io/RandomQuoteGenerator/",
+			"github_link": "https://github.com/Stagol33/RandomQuoteGenerator",
+			"image_urls": [
+				"/images/project1-square.png",
+				"/images/project1-landscape.png"
+			]
+		},
+		{
+			"id": 1,
+			"project_name": "Data Pagination and Filtering",
+			"description": "This project displays students and their information. The students are displayed with pagnation, and there is a search input for filtering the students.",
+			"technologies": ["JavaScript", "HTML", "CSS"],
+			"live_link": "https://stagol33.github.io/Data-Pagination-and-Filtering/",
+			"github_link": "https://github.com/Stagol33/Data-Pagination-and-Filtering",
+			"image_urls": [
+				"/images/project2-square.png",
+				"/images/project2-landscape.png"
+			]
+		},
+		{
+			"id": 2,
+			"project_name": "Interactive Form",
+			"description": "This project is an interactive form users to signup for conference workshops.",
+			"technologies": ["JavaScript", "HTML", "CSS"],
+			"live_link": "https://stagol33.github.io/Interactive-Form/",
+			"github_link": "https://github.com/Stagol33/Interactive-Form",
+			"image_urls": [
+				"/images/project3-square.png",
+				"/images/project3-landscape.png"
+			]
+		},
+		{
+			"id": 3,
+			"project_name": "OOP Game",
+			"description": "This project is an object oriented programming game very similar to hang man phrase guessing game.",
+			"technologies": ["JavaScript", "HTML", "CSS"],
+			"live_link": "https://stagol33.github.io/OOP-Game/",
+			"github_link": "https://github.com/Stagol33/OOP-Game",
+			"image_urls": [
+				"/images/project4-square.png",
+				"/images/project4-landscape.png"
+			]
+		},
+		{
+			"id": 4,
+			"project_name": "Public API Request",
+			"description": "This project fetchs a json file of random employees from a public API. It then renders those employees on a page a clickable modal buttons. These employees can also be filtered with a search input.",
+			"technologies": ["JavaScript", "HTML", "CSS"],
+			"live_link": "https://stagol33.github.io/Public-API-Requests/",
+			"github_link": "https://github.com/Stagol33/Public-API-Requests",
+			"image_urls": [
+				"/images/project5-square.png",
+				"/images/project5-landscape.png"
+			]
+		}
+	]
+}

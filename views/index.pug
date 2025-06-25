@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+	.portfolio-intro
+		h1 Welcome to My Developer Portfolio
+		p This portfolio showcases my projects built with JavaScript, HTML, and CSS. Each project demonstrates different coding skills and concepts in web development.
+
+	.portfolio-project-wrapper
+		.portfolio-container
+			each project in projects
+				.cell
+					a(href=`/project/${project.id}`)
+						img.thumbnail(src=`/static${project.image_urls[0]}`, alt=`${project.project_name}`)
+						h2= project.project_name
+						p.technology-list
+							each tech, index in project.technologies
+								span.tech-tag= tech
+								if index < project.technologies.length - 1
+									| · 
