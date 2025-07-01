@@ -59,6 +59,18 @@
 				"/images/project5-square.png",
 				"/images/project5-landscape.png"
 			]
+		},
+		{
+			"id": 5,
+			"project_name": "React Gallery App",
+			"description": "This Project demonstarates the ability to use React to fetch data and render it. The app seaches Pixabay's database for images using their API, and intially returns cat, dogs & computers. A user can then search the Pixabay database for whatever they like. The images are modal buttons that can be opened to display infomation about the image. Some 404 error handling has been implemented for URL routing errors.",
+			"technologies": ["React", "JavaScript", "HTML", "CSS"],
+			"live_link": "https://react-gallery-app-bavh.onrender.com",
+			"github_link": "https://github.com/Stagol33/react-gallery-app",
+			"image_urls": [
+				"/images/project6-square.png",
+				"/images/project6-landscape.png"
+			]
 		}
 	]
 }
