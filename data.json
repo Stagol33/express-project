@@ -2,42 +2,30 @@
 	"projects": [
 		{
 			"id": 0,
-			"project_name": "Random Quote Generator",
-			"description": "This project generates a random quote when a user clicks a button or after 15 seconds passes.",
-			"technologies": ["JavaScript", "HTML", "CSS"],
-			"live_link": "https://stagol33.github.io/RandomQuoteGenerator/",
-			"github_link": "https://github.com/Stagol33/RandomQuoteGenerator",
+			"project_name": "SQL Library Manager",
+			"description": "This project is a dynamic library management system built with Node.js, Express, Sequelize ORM, and PostgreSQL. This full-stack application provides an intuitive interface for managing a collection of books with features for browsing, searching, creating, updating, and deleting book records.",
+			"technologies": ["Express", "JavaScript", "Pug", "Sequelize ORM"],
+			"live_link": "https://sql-library-manager.onrender.com",
+			"github_link": "https://github.com/Stagol33/SQL-Library-Manager",
 			"image_urls": [
-				"/images/project1-square.png",
-				"/images/project1-landscape.png"
+				"/images/project7-square.png",
+				"/images/project7-landscape.png"
 			]
 		},
 		{
 			"id": 1,
-			"project_name": "Data Pagination and Filtering",
-			"description": "This project displays students and their information. The students are displayed with pagnation, and there is a search input for filtering the students.",
-			"technologies": ["JavaScript", "HTML", "CSS"],
-			"live_link": "https://stagol33.github.io/Data-Pagination-and-Filtering/",
-			"github_link": "https://github.com/Stagol33/Data-Pagination-and-Filtering",
+			"project_name": "React Gallery App",
+			"description": "This Project demonstarates the ability to use React to fetch data and render it. The app seaches Pixabay's database for images using their API, and intially returns cat, dogs & computers. A user can then search the Pixabay database for whatever they like. The images are modal buttons that can be opened to display infomation about the image. Some 404 error handling has been implemented for URL routing errors.",
+			"technologies": ["React", "JavaScript", "HTML", "CSS"],
+			"live_link": "https://react-gallery-app-bavh.onrender.com",
+			"github_link": "https://github.com/Stagol33/react-gallery-app",
 			"image_urls": [
-				"/images/project2-square.png",
-				"/images/project2-landscape.png"
+				"/images/project6-square.png",
+				"/images/project6-landscape.png"
 			]
 		},
 		{
 			"id": 2,
-			"project_name": "Interactive Form",
-			"description": "This project is an interactive form users to signup for conference workshops.",
-			"technologies": ["JavaScript", "HTML", "CSS"],
-			"live_link": "https://stagol33.github.io/Interactive-Form/",
-			"github_link": "https://github.com/Stagol33/Interactive-Form",
-			"image_urls": [
-				"/images/project3-square.png",
-				"/images/project3-landscape.png"
-			]
-		},
-		{
-			"id": 3,
 			"project_name": "OOP Game",
 			"description": "This project is an object oriented programming game very similar to hang man phrase guessing game.",
 			"technologies": ["JavaScript", "HTML", "CSS"],
@@ -49,7 +37,7 @@
 			]
 		},
 		{
-			"id": 4,
+			"id": 3,
 			"project_name": "Public API Request",
 			"description": "This project fetchs a json file of random employees from a public API. It then renders those employees on a page a clickable modal buttons. These employees can also be filtered with a search input.",
 			"technologies": ["JavaScript", "HTML", "CSS"],
@@ -61,15 +49,39 @@
 			]
 		},
 		{
-			"id": 5,
-			"project_name": "React Gallery App",
-			"description": "This Project demonstarates the ability to use React to fetch data and render it. The app seaches Pixabay's database for images using their API, and intially returns cat, dogs & computers. A user can then search the Pixabay database for whatever they like. The images are modal buttons that can be opened to display infomation about the image. Some 404 error handling has been implemented for URL routing errors.",
-			"technologies": ["React", "JavaScript", "HTML", "CSS"],
-			"live_link": "https://react-gallery-app-bavh.onrender.com",
-			"github_link": "https://github.com/Stagol33/react-gallery-app",
+			"id": 4,
+			"project_name": "Random Quote Generator",
+			"description": "This project generates a random quote when a user clicks a button or after 15 seconds passes.",
+			"technologies": ["JavaScript", "HTML", "CSS"],
+			"live_link": "https://stagol33.github.io/RandomQuoteGenerator/",
+			"github_link": "https://github.com/Stagol33/RandomQuoteGenerator",
 			"image_urls": [
-				"/images/project6-square.png",
-				"/images/project6-landscape.png"
+				"/images/project1-square.png",
+				"/images/project1-landscape.png"
+			]
+		},
+		{
+			"id": 5,
+			"project_name": "Data Pagination and Filtering",
+			"description": "This project displays students and their information. The students are displayed with pagnation, and there is a search input for filtering the students.",
+			"technologies": ["JavaScript", "HTML", "CSS"],
+			"live_link": "https://stagol33.github.io/Data-Pagination-and-Filtering/",
+			"github_link": "https://github.com/Stagol33/Data-Pagination-and-Filtering",
+			"image_urls": [
+				"/images/project2-square.png",
+				"/images/project2-landscape.png"
+			]
+		},
+		{
+			"id": 6,
+			"project_name": "Interactive Form",
+			"description": "This project is an interactive form users to signup for conference workshops.",
+			"technologies": ["JavaScript", "HTML", "CSS"],
+			"live_link": "https://stagol33.github.io/Interactive-Form/",
+			"github_link": "https://github.com/Stagol33/Interactive-Form",
+			"image_urls": [
+				"/images/project3-square.png",
+				"/images/project3-landscape.png"
 			]
 		}
 	]
