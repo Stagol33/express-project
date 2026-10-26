@@ -1,0 +1,19 @@
+views/about.pug
+  s_dcf8e3c0f947c2::t_b0888af6739d77 105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "742ed99d1d57d2020cfc1354d828fce58f5f2367",
+  "prompts": {},
+  "sessions": {
+    "s_dcf8e3c0f947c2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2c6fc82d-0511-4ff5-8443-5c551902e412",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "breck <breckc@knowbe4.com>"
+    }
+  }
+}
